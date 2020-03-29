@@ -1,1 +1,1 @@
-web: bundle exec tcpesp server -p 8000
+web: gunicorn gettingstarted.wsgi
